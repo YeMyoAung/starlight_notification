@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_local_notifications:
+  flutter_local_notifications: ^9.1.5
 
 dev_dependencies:
   flutter_test:
