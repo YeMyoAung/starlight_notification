@@ -1,10 +1,7 @@
 part of starlight_notification;
 
-final FlutterLocalNotificationsPlugin _flutterLocalNotificationsPlugin =
-    FlutterLocalNotificationsPlugin();
-
-class StarlightNotificationService {
-  StarlightNotificationService._();
+class StarlightNotificationService extends _Service {
+  StarlightNotificationService() : super._();
 
   ///android setting
   static const AndroidInitializationSettings _initializationSettingsAndroid =
@@ -26,6 +23,8 @@ class StarlightNotificationService {
     'com.starlight.notification',
     'Powered by Starlight Studio',
     description: "Make sound and pop up on screen.",
+    enableLights: true,
+    ledColor: Colors.amber,
     importance: Importance.max,
   );
 
