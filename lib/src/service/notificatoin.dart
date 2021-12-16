@@ -25,6 +25,7 @@ class StarlightNotificationService {
   static const AndroidNotificationChannel _channel = AndroidNotificationChannel(
     'com.starlight.notification',
     'Powered by Starlight Studio',
+    description: "Make sound and pop up on screen.",
     importance: Importance.max,
   );
 
