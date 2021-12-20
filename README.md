@@ -57,7 +57,7 @@ Add the following lines to the didFinishLaunchingWithOptions method in the AppDe
 
 ```swift
 if #available(iOS 10.0, *) {
-  UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
+  UNUserNotificationCenter.current().delegate = self as UNUserNotificationCenterDelegate
 }
 ```
 
