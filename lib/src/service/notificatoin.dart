@@ -21,7 +21,7 @@ class StarlightNotificationService extends _Service {
   ///android channel
   static const AndroidNotificationChannel _channel = AndroidNotificationChannel(
     'com.starlight.notification',
-    '',
+    'Notification',
     description: "Make sound and pop up on screen.",
     importance: Importance.max,
   );
